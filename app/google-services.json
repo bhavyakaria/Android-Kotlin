@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "392773979173",
+    "firebase_url": "https://login-cb7b5.firebaseio.com",
+    "project_id": "login-cb7b5",
+    "storage_bucket": "login-cb7b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392773979173:android:7ba7e87bfcc8970d",
+        "android_client_info": {
+          "package_name": "parzival.com.androidkotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "392773979173-jmecu88lk7981an13662smtleb54oqjc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "parzival.com.androidkotlin",
+            "certificate_hash": "b1d11bc85f5b6d7cc5c83c246693cf5b6e91ff3b"
+          }
+        },
+        {
+          "client_id": "392773979173-e3vn8ldmeu4iad3qaffgu1fduleo55m2.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "392773979173-e3vn8ldmeu4iad3qaffgu1fduleo55m2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAp7B5gk3D4Jht3jRq_TLykQdFr75sWj4U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "392773979173-e3vn8ldmeu4iad3qaffgu1fduleo55m2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392773979173:android:633cce4afbe9e96e",
+        "android_client_info": {
+          "package_name": "parzival.com.heypex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "392773979173-rvufurkuqcnkf5hq86il5tbsqkvajg2m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "parzival.com.heypex",
+            "certificate_hash": "b1d11bc85f5b6d7cc5c83c246693cf5b6e91ff3b"
+          }
+        },
+        {
+          "client_id": "392773979173-e3vn8ldmeu4iad3qaffgu1fduleo55m2.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "392773979173-e3vn8ldmeu4iad3qaffgu1fduleo55m2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAp7B5gk3D4Jht3jRq_TLykQdFr75sWj4U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "392773979173-e3vn8ldmeu4iad3qaffgu1fduleo55m2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
