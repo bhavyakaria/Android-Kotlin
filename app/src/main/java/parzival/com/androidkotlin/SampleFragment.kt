@@ -4,9 +4,13 @@ package parzival.com.androidkotlin
 import android.content.Context
 import android.os.Bundle
 import android.support.v4.app.Fragment
+import android.support.v7.widget.LinearLayoutManager
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.LinearLayout
+import kotlinx.android.synthetic.main.fragment_sample.*
+import kotlinx.android.synthetic.main.fragment_sample.view.*
 
 
 // 1. Declaring SampleFragment as a subclass of Fragment class
@@ -30,7 +34,20 @@ class SampleFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_sample, container, false)
+
+        val view:View = inflater.inflate(R.layout.fragment_sample, container, false)
+
+        view.recyclerView.layoutManager = LinearLayoutManager(context,LinearLayout.VERTICAL,false)
+        val list = ArrayList<DataClass>()
+
+        list.add(DataClass("India","New Delhi"))
+        list.add(DataClass("Pakistan","Karachi"))
+        list.add(DataClass("England","London"))
+
+        val adapter = CustomAdapter(list)
+        view.recyclerView.adapter = adapter
+
+        return view
     }
 
     // onAttach() contains code that accesses the resources you need via the Context to which the fragment is attached.
