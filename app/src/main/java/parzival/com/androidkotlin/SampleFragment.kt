@@ -9,9 +9,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.LinearLayout
-import kotlinx.android.synthetic.main.fragment_sample.*
 import kotlinx.android.synthetic.main.fragment_sample.view.*
-
 
 // 1. Declaring SampleFragment as a subclass of Fragment class
 class SampleFragment : Fragment() {

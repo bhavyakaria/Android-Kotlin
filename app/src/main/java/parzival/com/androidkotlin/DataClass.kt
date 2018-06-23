@@ -1,3 +1,5 @@
 package parzival.com.androidkotlin
 
-data class DataClass(val countryName:String, val capital:String)
+import android.databinding.BaseObservable
+
+data class DataClass(val countryName:String, val capital:String) : BaseObservable()
