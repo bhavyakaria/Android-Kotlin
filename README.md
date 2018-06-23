@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Android-Kotlin
 Android app written in Kotlin language.
 
@@ -67,10 +66,4 @@ When the fragment does its final clean up.
 
 #### onDetach: 
 When the fragment is detached from its activity.
-||||||| merged common ancestors
-=======
-# Android-Kotlin
-Android app written in Kotlin language.
 
-Various branches contains basic implementation of different components like fragments, recyclerview, listview, etc with step by step guide.
->>>>>>> 3943d1ae8e598d5d62ea2bf2423325712a221551
